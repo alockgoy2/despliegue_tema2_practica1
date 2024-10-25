@@ -9,6 +9,8 @@
 
 <body>
 	<h2>Agregar datos a Persona</h2>
+
+	<h2>Patata</h2>
 	<form action="procesar.php" method="POST">
 		<label for="nombre">Nombre:</label>
 		<input type="text" id="nombre" name="nombre" required /> <br /><br />
