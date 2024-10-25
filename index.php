@@ -56,8 +56,9 @@
 		// Cerrar conexión
 		$conexion->close();
 
-		echo "<a href='info.php' target='_blank'>Ver si php funciona</a>";
 		?>
+		<br/><br/>
+		<a href='info.php' target='_blank'>Ver si php funciona</a>
 	</table>
 </body>
 
