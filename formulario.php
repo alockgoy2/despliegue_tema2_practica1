@@ -41,7 +41,7 @@
 		}
 
 		// Consulta a la base de datos
-		$sql = "SELECT nombre, edad FROM personas";
+		$sql = "SELECT nombre, edad FROM persona";
 		$resultado = $conn->query($sql);
 
 		// Mostrar datos en la tabla
