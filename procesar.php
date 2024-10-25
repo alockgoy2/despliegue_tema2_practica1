@@ -12,7 +12,7 @@
 	$servidor = "localhost"; //dirección del servidor
 	$usuario = "alonso"; //nombre de usuario
 	$clave = "franceselquemehackee"; //contraseña del usuario
-	$baseDatos = "pruebas"; //nombre de la base de datos
+	$baseDatos = "prueba"; //nombre de la base de datos
 
 	//crear la conexión
 	$conexion = new mysqli($servidor, $usuario, $clave, $baseDatos);
