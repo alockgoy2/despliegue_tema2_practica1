@@ -37,7 +37,7 @@
 
 		// Verificar conexión
 		if ($conexion->connect_error) {
-			die("Conexión fallida: " . $conexion->connect_error);
+			die("Conexión fallida: {$conexion->connect_error}");
 		}
 
 		// Consulta a la base de datos
@@ -45,7 +45,7 @@
 		$resultado = $conexion->query($sql);
 
 		// Mostrar datos en la tabla
-		if ($resultado->num_celdas > 0) {
+		if ($resultado->num_rows > 0) {
 			while ($celda = $resultado->fetch_assoc()) {
 				echo "<tr><td>" . $celda["nombre"] . "</td><td>" . $celda["edad"] . "</td></tr>";
 			}
