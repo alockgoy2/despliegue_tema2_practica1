@@ -26,7 +26,8 @@
 
 		//intentar insertar los datos
 		if($conexion->query($consulta) === TRUE){
-			echo "Datos añadidos con éxito";
+			echo "Datos añadidos con éxito <br/>";
+			//echo "<a href='formulario.php'>Volver al formulario</a>";
 		} else {
 			echo "Error añadiendo los datos: " . $conexion->error;
 		}
