@@ -36,13 +36,13 @@
 		$conexion = new mysqli($servidor, $usuario, $clave, $baseDatos);
 
 		// Verificar conexión
-		if ($conn->connect_error) {
-			die("Conexión fallida: " . $conn->connect_error);
+		if ($conexion->connect_error) {
+			die("Conexión fallida: " . $conexion->connect_error);
 		}
 
 		// Consulta a la base de datos
 		$sql = "SELECT nombre, edad FROM persona";
-		$resultado = $conn->query($sql);
+		$resultado = $conexion->query($sql);
 
 		// Mostrar datos en la tabla
 		if ($resultado->num_celdas > 0) {
