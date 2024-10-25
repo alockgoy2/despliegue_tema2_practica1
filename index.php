@@ -57,9 +57,11 @@
 		$conexion->close();
 
 		?>
-		<br/><br/>
-		<a href='info.php' target='_blank'>Ver si php funciona</a>
+		
 	</table>
+
+	<br/><br/>
+		<a href='info.php' target='_blank'>Ver si php funciona</a>
 </body>
 
 </html>
